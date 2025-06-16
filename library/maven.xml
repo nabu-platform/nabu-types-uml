@@ -1,15 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><maven><artifacts>nabu:eai-module-types-uml</artifacts><internalDomains>nabu</internalDomains>
-<provided>be.nabu.libs.artifacts:artifacts-api</provided>
-<provided>be.nabu.libs.converter:converter-api</provided>
-<provided>be.nabu.libs.converter:converter-base</provided>
-<provided>be.nabu.libs.types:types-api</provided>
-<provided>be.nabu.libs.types:types-base</provided>
-<provided>be.nabu.libs.types:types-java</provided>
-<provided>be.nabu.libs.types:types-structure</provided>
-<provided>be.nabu.libs.types:types-xml</provided>
-<provided>be.nabu.utils:utils-xml</provided>
-<provided>be.nabu.libs.validator:validator-api</provided>
-<provided>be.nabu.libs.validator:validator-base</provided>
-<provided>be.nabu.libs.property:property-api</provided>
-<provided>org.slf4j:slf4j-api</provided>
-<updateSnapshots>false</updateSnapshots></maven>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<maven>
+    <artifacts>nabu:eai-module-types-uml</artifacts>
+    <encapsulated>false</encapsulated>
+    <internalDomains>nabu</internalDomains>
+    <provided>be.nabu.libs.artifacts:artifacts-api</provided>
+    <provided>be.nabu.libs.converter:converter-api</provided>
+    <provided>be.nabu.libs.converter:converter-base</provided>
+    <provided>be.nabu.libs.types:types-api</provided>
+    <provided>be.nabu.libs.types:types-base</provided>
+    <provided>be.nabu.libs.types:types-java</provided>
+    <provided>be.nabu.libs.types:types-structure</provided>
+    <provided>be.nabu.libs.types:types-xml</provided>
+    <provided>be.nabu.utils:utils-xml</provided>
+    <provided>be.nabu.libs.validator:validator-api</provided>
+    <provided>be.nabu.libs.validator:validator-base</provided>
+    <provided>be.nabu.libs.property:property-api</provided>
+    <provided>org.slf4j:slf4j-api</provided>
+    <provided>javax.xml.bind:jaxb-api</provided>
+    <provided>com.sun.xml.bind:jaxb-impl</provided>
+    <provided>com.sun.xml.bind:jaxb-core</provided>
+    <provided>javax.activation:activation</provided>
+    <updateSnapshots>false</updateSnapshots>
+</maven>
